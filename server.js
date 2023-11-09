@@ -4,7 +4,7 @@ const app = express();
 //routes
 
 app.get("/", (req, res) => {
-  res.send("Hello blackcoffer server");
+  res.send("Hello from blackcoffer server");
 });
 
 app.listen(8000, () => {
